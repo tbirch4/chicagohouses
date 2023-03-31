@@ -3,7 +3,6 @@
 
 import polars as pl
 import geopandas as gpd
-import chicagohouses.data
 
 
 def get_houses(community_areas: list[str] = False, year_range: list[int] = False, 
