@@ -6,6 +6,7 @@ setup(name='chicagohouses',
       author='Travis Birch',
       author_email='aml-toolbox-feedback@googlegroups.com',
       packages=['chicagohouses'],
+      package_data={'chicagohouses': 'data/houses.parquet.gzip'}
       include_package_data=True,
       install_requires=['polars', 'geopandas', 
                         'pandas', 'pyarrow']
