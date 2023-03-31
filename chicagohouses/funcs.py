@@ -31,7 +31,7 @@ def get_houses(community_areas: list[str] = False, year_range: list[int] = False
         specified in `output_type`)
     """
     # Import data.
-    data_file = 'data/houses.parquet.gzip'
+    data_file = 'houses.parquet.gzip'
     try:
         p_df = pl.scan_parquet(data_file)
     except FileNotFoundError:
