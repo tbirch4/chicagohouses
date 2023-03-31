@@ -5,7 +5,7 @@ setup(name='chicagohouses',
       description='Get a filterable list of houses in Chicago.',
       author='Travis Birch',
       author_email='aml-toolbox-feedback@googlegroups.com',
-      packages=find_packages(),
+      packages=['chicagohouses', 'chicagohouses.data'],
       include_package_data=True,
       install_requires=['polars', 'geopandas', 
                         'pandas', 'pyarrow']
