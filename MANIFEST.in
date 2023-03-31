@@ -1,1 +1,1 @@
-include chicagohouses/chicagohouses/data/houses.parquet.gzip
+include chicagohouses/data/houses.parquet.gzip
